@@ -4,5 +4,4 @@ I will be using this repository as a form of note-taking / Journaling for myself
 
 PS. Updates are not guaranteed to be consistent but they will all be Meaningful!
 
-TestingS
 ![Thumbs Up](thumbs_up.png)
