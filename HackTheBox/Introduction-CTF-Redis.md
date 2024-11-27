@@ -17,7 +17,7 @@ I will follow-up with my understanding on each service below:
 
 # Redis - Remote Disctionary Server
 
-![RedisImage](img/Rdis.png)
+![RedisImage](h_img/Rdis.png)
 
 Redis is an open-source, in memory, multimodel database that works super fast.
 
