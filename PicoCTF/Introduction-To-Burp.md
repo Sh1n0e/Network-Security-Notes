@@ -16,22 +16,22 @@ What we want to do at this point is:
 
 1. Use BurpSuite to intercept traffic at all stages of filling in the form
 
-![burp2](p_img/burp2)
+![burp2](p_img/burp2.png)
 
 So now that we are beginning to intercept the traffic from Burp we will fill in the form. This should get us somehwere after doing so like this:
 
-![burp3](p_img/burp3)
+![burp3](p_img/burp3.png)
 
 
 When we do so we should get what looks like this, which we will use on the repeater which should look like the following:
 
-![burp4](p_img/burp4)
+![burp4](p_img/burp4.png)
 
 We get directed to an OTP page but I took the liberty to just not show that on here because its just a single textbox that we use to put whatever we want.
 
 So with the walkthrough i was following it said to use the repeater and then send it to the host but that didn't work for me. HOWEVER, when i just removed the OTP field I got this result:
 
-![burp5](p_img/burp5)
+![burp5](p_img/burp5.png)
 
 picoCTF{#0TP_Bypvss_SuCc3$S_b3fa4f1a}
 
