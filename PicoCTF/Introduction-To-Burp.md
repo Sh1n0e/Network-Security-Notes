@@ -41,3 +41,8 @@ picoCTF{#0TP_Bypvss_SuCc3$S_b3fa4f1a}
 Overall this was an introductory CTF that I found wasn't as straightforward as the challenges prior but I found it to be a lot of fun to make!
 
 My main takeaway from this was that im able to use BurpSuite's interceptor feature to be able to take a look at any web request that can be made to see if there are any factors that I can change to potentially find a way to pass through any security measures and get to where I shouldn't be!
+
+----
+## Where I think this would apply:
+
+Based on my understanding so far, utilizing burpsuite in a context like this is a way that a threat actor is able to register under a spoofed profile and bypass the OTP authentication that would most likely be sent by phone if the website had full functionality.
