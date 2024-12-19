@@ -86,7 +86,7 @@ We can see that inspecting it allows us to see a js script with a clickable link
 
 ![img=b](p_img/LA2.png)
 
-By clicking we can enter and then see the proper admin credentials and with that we found the flag.
+By clicking we can enter and then see the proper admin credentials and we get given the flag after finding out these credentials.
 
 ----
 
