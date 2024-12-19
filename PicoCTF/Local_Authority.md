@@ -1,5 +1,9 @@
 # Local Authority:
 
+I don't have the photo but all we had from the initial page was two text fields for username and password.
+
+I decided to go right to using curl using specific command
+
 ``` C 
 C:\Users\Shawn>curl -X POST http://saturn.picoctf.net:65116/login.php -- data
 <!DOCTYPE html>
@@ -54,7 +58,7 @@ C:\Users\Shawn>curl -X POST http://saturn.picoctf.net:65116/login.php -- data
         if(loggedIn)
         {
           document.getElementById('msg').innerHTML = "Log In Successful";
-          document.getElementById('adminFormHash').value = "2196812e91c29df34f5e217cfd639881";
+          document.getElementById('adminFormHash').value = "2196812e91c29df34f5e217cfd639881"; // Hash found here
           document.getElementById('hiddenAdminForm').submit();
         }
         else
@@ -72,9 +76,6 @@ C:\Users\Shawn>curl -X POST http://saturn.picoctf.net:65116/login.php -- data
 curl: (6) Could not resolve host: data
 ```
 ----
-
-First instinct was to curl using specific command
-
 Provided a hash: 2196812e91c29df34f5e217cfd639881 which is md5 encryption so I am making an assumption that this is probably an admin account (makes sense considering the task.
 
 After entering dummy credentials the page returned with a false login attempt. I checked in the inspect section of that page and got this:
@@ -83,7 +84,7 @@ After entering dummy credentials the page returned with a false login attempt. I
 
 We can see that inspecting it allows us to see a js script with a clickable link that gives us the login and password:
 
-![img=b](p_img/LA-2)
+![img=b](p_img/LA-2.png)
 
 By clicking we can enter and then see the proper admin credentials and with that we found the flag.
 
