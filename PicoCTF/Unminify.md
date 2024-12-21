@@ -13,6 +13,7 @@ And upon using the inspect tool we get this:
 ![image_2](p_img/Term1.png)
 
 Flag - picoCTF{pr3tty_c0d3_622b2c88}
+
 ----
 
 ## Breakdown
