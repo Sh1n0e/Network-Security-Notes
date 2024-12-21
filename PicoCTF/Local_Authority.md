@@ -88,6 +88,8 @@ We can see that inspecting it allows us to see a js script with a clickable link
 
 By clicking we can enter and then see the proper admin credentials and we get given the flag after finding out these credentials.
 
+Flag - picoCTF{j5_15_7r4n5p4r3n7_b0c2c9cb}
+
 ----
 
-# SO SORRY I DONT HAVE MORE PHOTOS OR THE FLAG... I did this a while ago and realized I never took photos and whatnot :(
+# SO SORRY I DONT HAVE MORE PHOTOS... I did this a while ago and realized I never took photos and whatnot :(
