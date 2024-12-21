@@ -12,8 +12,6 @@ And upon using the inspect tool we get this:
 
 ![image_2](p_img/Term1.png)
 
-Flag - picoCTF{pr3tty_c0d3_622b2c88}
-
 ----
 
 ## Breakdown
@@ -24,7 +22,7 @@ I decided to use Curl and got the following result:
 
 ![image_3](p_img/cmd1.png)
 
-and we can see the flag right there highlighted!
+Flag - picoCTF{pr3tty_c0d3_622b2c88}
 
 Curl: Command line tool to transfer data using URL syntax.
 
