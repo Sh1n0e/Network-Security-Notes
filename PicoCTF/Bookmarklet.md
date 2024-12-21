@@ -17,9 +17,9 @@ javascript:(function() {
             alert(decryptedFlag);
 ```
 
-My initial thought was to take the variable encryptedFLag into cyberchef to see if it could decode it. It probably would have worked if I had a better understanding of how Cyberchef works.
+My initial thought was to take the variable encryptedFLag into cyberchef to see if it could decode it, which it didn't based on my own attempt.
 
-What I did after that was to just take the javascript code and put it into an online javascript compiler and the output of it gave me the flag which we can see below:
+What I did after that was to just take the javascript code and put it into an online javascript compiler since it is just a function that at a quick glance does what the task wants us to do. And the output of it gave me the flag which we can see below:
 
 ![img-2](p_img/bk3.png)
 
