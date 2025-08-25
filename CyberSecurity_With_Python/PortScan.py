@@ -10,7 +10,7 @@ def SynScan(host):
         TCP(sport=33333,dport=ports,flags="S"),timeout=2,verbose=0)
     print("Open ports at %s:" %host)
     for (s,r) in ans:
-        if s[TCP].dport == r[TCP].sport and r[TCP].flags=="SA":
+        if r.haslayer(TCP) and r[TCP].flags == 0x12: # Flag for SYN-ACK
             print(s[TCP].dport)
 
 # Function to test if there is a DNS service running on the machine using the given address
