@@ -33,3 +33,13 @@ except:
 
 SynScan(host)
 DNSScan(host)
+
+
+# Extra exercises:
+# 1. Differentiate and identify open and closed ports (Hint: closed ports return RST and ports filtered by firewall will return nothing)
+# 2. Modify to implement additional types of scans such as ACK and XMAS scans.
+
+
+
+
+
