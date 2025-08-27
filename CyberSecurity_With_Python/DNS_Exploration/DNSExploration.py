@@ -2,11 +2,11 @@ import dns
 import dns.resolver
 import socket
 
-domain = {}
+domains = {}
 subs = "dns_search.txt"
 
 res = dns.resolver.Resolver()
-res.nameservers = {"8.8.8.8"}
+res.nameservers = ["8.8.8.8"]
 res.port = 53
 
 domain = "google.com"
