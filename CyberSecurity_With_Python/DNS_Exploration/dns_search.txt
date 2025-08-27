@@ -1,0 +1,8 @@
+www
+secure
+email
+ftp
+cloud
+blog
+webmail
+smtp
