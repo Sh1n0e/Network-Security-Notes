@@ -35,7 +35,7 @@ def DNSRequest(domain):
                 rd = ReverseDNS(a)
                 for d in rd:
                     if d not in domains:
-                        domain[d] = [a]
+                        domains[d] = [a]
                         DNSRequest(d)
                     else:
                         domains[d] = [a]
